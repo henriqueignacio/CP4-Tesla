@@ -1,0 +1,213 @@
+
+body {
+    margin: 0;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    color: #f8f9fa;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding-left: 550px;
+    font-size: 14px;
+}
+
+.nav-links li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#model-3 {
+    background-image: url(Tesla1.avif);
+}
+
+#model-y {
+    background-image: url(Tesla2.avif);
+}
+
+#model-x {
+    background-image: url(Tesla3.avif);
+}
+
+#model-s {
+    background-image: url(Tesla4.avif);
+}
+
+#cybertruck {
+    background-image: url(Tesla5.avif);
+}
+
+#solar-panels {
+    background-image: url(Tesla6.avif);
+}
+
+#solar-roof {
+    background-image: url(Tesla7.avif);
+}
+
+#powerwall {
+    background-image: url(Tesla8.avif);
+}
+
+#accessories {
+    background-image: url(Tesla9.avif);
+}
+
+.hero-content {
+    max-width: 80%;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 480px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+    
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #f8f9fa;
+    color: black;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.btn-secondary:hover {
+    background-color: #e2e6ea;
+}
+
+
+footer {
+    background-color: black;
+    color: lightgrey;
+    padding: 40px 20px;
+    font-size: 12px;
+   
+}
+
+.legal-footer .legal-notice {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center ;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.legal-footer .legal-notice p {
+    margin: 0 0 10px;
+}
+
+.legal-footer .legal-notice a {
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.legal-footer .legal-notice a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+   
+}
+
+.footer-links p {
+    margin: 10px 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.footer-links ul li {
+    display: inline;
+    
+}
+
+.footer-links ul li a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+.sublinhar {
+    text-decoration: underline;
+}
